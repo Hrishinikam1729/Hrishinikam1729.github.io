@@ -1,0 +1,17 @@
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.BigNameTag {
+    font-size: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end) forwards;
+    padding-top: 100px;
+    padding-left: 400px;
+}

@@ -1,0 +1,18 @@
+.ReachMeTag {
+    background: linear-gradient(to bottom, #c2469f, #a9e04a);
+    position: fixed;
+    top: 20px;
+    left: 630px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    border-color: #7ddde8;
+    color: azure;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.ReachMeTag:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

@@ -11,11 +11,47 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Hrishi's Portfolio</title>
 </head>
+<style>
+    @keyframes fadeEffect {
+        0% {
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Starting color with low opacity */
+        }
+        100% {
+            background-color: rgba(0, 0, 0, 0.8);
+            /* Ending color with low opacity */
+        }
+    }
+    
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        font-family: Arial, sans-serif;
+        color: white;
+        background: linear-gradient(to bottom, #ed7f2b, #e0e0df);
+        /* Your initial background gradient */
+        animation: fadeEffect 50s infinite alternate;
+        /* Adjust duration as needed */
+        backdrop-filter: blur(10px);
+        /* Adjust blur amount as needed */
+    }
+</style>
 
 <body>
+
+
+
     <div id="root">
         <header id="header"></header>
     </div>
+    <div id="BigName">
+
+    </div>
+    <div id="Project1">
+
+    </div>
+
 </body>
 
 </html>

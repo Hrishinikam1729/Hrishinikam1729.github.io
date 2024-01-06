@@ -1,0 +1,24 @@
+@keyframes drop-in {
+    from {
+        transform: rotate(-30deg) translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(0deg) translateY(0%);
+        opacity: 1;
+    }
+}
+
+.ProjectTag {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    animation: drop-in 1000ms;
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+    background: linear-gradient(to bottom, #cfcfcf, #b2e756);
+}
